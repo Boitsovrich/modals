@@ -1,5 +1,5 @@
 <template>
-  <modal 
+  <modal
     title="Modal with form + Validate"
     @close="$emit('close')">
     <!-- body -->
@@ -27,7 +27,7 @@
           @change="$v.email.$touch()">
         </div>
         <!-- button -->
-           <button class="btn btnPrimary">Submit!</button>
+        <button class="btn btnPrimary">Submit!</button>
       </form>
     </div>
   </modal>
